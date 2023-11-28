@@ -75,16 +75,7 @@ WSGI_APPLICATION = 'servidor.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'aindep32_a_independencia',
-        'USER': 'aindep32_nattan',
-        'PASSWORD': 'Ain250595!',
-        'HOST': '108.167.188.104',  # Normalmente 'localhost' ou '127.0.0.1' para instalações locais
-        'PORT': '3306',  # Normalmente '3306'
-    }
-}
+DATABASES
 
 
 # Password validation
